@@ -8,7 +8,7 @@
     <div>
         <ul>
             <!-- ko foreach: $root.catList -->
-            <li><span data-bind="text: name"></span></li>
+            <li><span data-bind="text: name, click: $root.catPicker"></span></li>
             <!-- /ko -->
         </ul>
     </div>
